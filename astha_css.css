@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syncopate:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Amaranth);
+    color: antiquewhite;
+}
+/* utility classes */
+
+:root{
+    /* black colour shades */
+    --jet-black:#343434;
+    --Charcoal:#36454F;
+    --Matte-Black:#28282B;
+    --background-black:#1B1B1D;
+    /* Red colour shades */
+    --Cadmium-Red:#D22B2B;
+    --Cherry:#D2042D;
+    --Maroon:#800000;
+    --Red-Orange:#FF4433;
+    /* Pink colour shades */
+    --Hot-Pink	:#FF69B4;
+    --Thistle	:#D8BFD8;
+    --Pastel-Pink	:#F8C8DC;
+    --Amaranth	:#9F2B68;
+
+}
+.container{
+    max-width: 1180px;
+    margin-inline: 8%;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    margin-left:30px;
+    padding: 12px 24px;
+    font-family: "Major Mono Display", serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.bg-image img{
+    width: 100%;
+    height: 100%;
+    opacity:0.8;
+    box-shadow: 1px 1px 10px black;
+    z-index: 0;
+   
+}
+nav{
+    position: absolute;
+    top: 0;
+    padding-left: 19%;
+    margin-top: 2%;
+}
+.welcome{
+    font-family: "Syncopate", serif;
+    position: absolute;
+    top:40%;
+    margin-left:2%;
+   
+  
+}
+.to{
+    font-family: "Syncopate", serif;
+    position: absolute;
+    top:48%;
+    left:30%
+}
+.to h1{
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px var(--Maroon);
+    opacity: .7;
+}
+.welcome h1{
+    font-weight: 900;
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px var(--Maroon);
+    opacity: .7;
+    
+    
+}
+.my-world{
+    width: 50%;
+    font-family: "Syncopate", serif;
+    position: absolute;
+    top:40%;
+    right: 10%;
+    font-size: 4rem;
+    text-shadow: 2px 2px 20px var(--Hot-Pink);
+}
+.my-world h1{
+    text-align: end;
+    -webkit-text-stroke:3px white;
+    color: transparent;
+    opacity: .8;
+}
+.go-button{
+    position: absolute;
+    left: 45%;
+    margin-top: 2%;
+    padding:24px 12px;
+    border: 2px solid ;
+    border-radius: 5px;  
+}
+/* home section */
+.my_img{
+    width: 500px;
+    transform: translateX(598px);
+    
+}
+.home{
+    padding-top:20%;
+    padding-left: 15%;
+
+}
+.home-content{
+    width: 400px;
+    height: 300px;
+    margin-left: 10%;
+    transform: translateY(-400px);
+    border: 2px solid
+    white;
+    border-radius: 20px;
+}
+.home-content p{
+    font-family: "Syncopate", serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 12px 12px;
+}
+/* education section */
+
+.education h2{
+    font-size: 3rem;
+    font-family: "Rubik Vinyl", serif;
+    
+    margin-bottom: 10%;
+}
+.table{
+    border: 2px solid white;
+    border-radius: 12px;
+    padding:12px 22px;
+    margin-left: 15%;
+}
+.table tr th{
+    font-size: 2.5rem;
+    font-family:"Poppins","sans-serif";
+    padding-bottom: 2%;
+    padding-right: 2%;
+    text-align: center;
+   
+}
+/* certificate section */
+.certificates img{
+    width: 700px;
+    border-radius: 12px;
+    margin-top: 4%;
+}
+#certification{
+    margin-top:15%;
+}
+.certificate-about{
+    width:300px;
+    height:300px;
+    margin-left: 70%;
+    transform: translateY(-390px);
+    font-family:"Syncopate", serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 24px 12px;
+    border: 1px solid whitesmoke;
+    line-height: 1.4;
+    border-radius: 12px;
+}
+/* contact section */
+.contact{
+    font-family: "Poppinns",sans-serif;
+    margin-left: 35%;
+    width: 400px;
+    z-index: 2;
+}
+.contact h3{
+    font-family: "Major Mono Display", serif;
+    margin-bottom: 4%;
+    font-size: 3rem;
+}
+.small-box{
+    padding-left: 3%;
+    padding-top: 6%;
+}
+.form label p{
+    color: antiquewhite;
+    font-size: 1.5rem;
+    margin-top:4%;
+    padding-bottom: 4%;
+}
+.input-txt{
+    width:80%;
+    height:27px;
+    border-radius: 5px;
+    padding-left: 2%;
+    font-family:"Poppins", serif;
+    letter-spacing: 1.3px;
+
+}
+.submit-btn{
+    width: 30%;
+    height: 40px;
+    margin-left: 24%;
+    margin-top: 10%;
+    font-family:"Major Mono Display", serif; 
+    font-weight: 700;
+}
+.heart img{
+    width: 10%;
+    transform: translateY(-500px);
+    z-index:0;
+}
+.false{
+    height: 100px;
+}
